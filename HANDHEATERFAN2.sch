@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -366,16 +366,17 @@ heater connections</text>
 <wire x1="104.14" y1="124.46" x2="104.14" y2="128.27" width="0.3048" layer="97"/>
 <wire x1="83.82" y1="124.46" x2="83.82" y2="128.27" width="0.3048" layer="97"/>
 <wire x1="83.82" y1="111.76" x2="83.82" y2="107.95" width="0.3048" layer="97"/>
-<text x="83.82" y="115.57" size="1.27" layer="97" align="bottom-center">4.7R
+<text x="83.82" y="115.57" size="1.27" layer="97" align="bottom-center">3.9R
 7W</text>
-<text x="104.14" y="115.57" size="1.27" layer="97" align="bottom-center">4.7R
+<text x="104.14" y="115.57" size="1.27" layer="97" align="bottom-center">3.9R
 7W</text>
-<text x="124.46" y="115.57" size="1.27" layer="97" align="bottom-center">4.7R
+<text x="124.46" y="115.57" size="1.27" layer="97" align="bottom-center">3.9R
 7W</text>
-<text x="144.78" y="115.57" size="1.27" layer="97" align="bottom-center">4.7R
+<text x="144.78" y="115.57" size="1.27" layer="97" align="bottom-center">3.9R
 7W</text>
-<text x="165.1" y="115.57" size="1.27" layer="97" align="bottom-center">4.7R
+<text x="165.1" y="115.57" size="1.27" layer="97" align="bottom-center">3.9R
 7W</text>
+<text x="111.76" y="7.62" size="1.778" layer="97">https://www.digikey.com.au/product-detail/en/vishay-bc-components/AC07000003908JAC00/PPC7W3.9CT-ND/596811</text>
 </plain>
 <instances>
 <instance part="JP1" gate="G$1" x="83.82" y="129.54" smashed="yes" rot="R90">

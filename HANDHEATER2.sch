@@ -945,8 +945,7 @@ Handy to use on those pins that you want to mark as NC on a schematic.</descript
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
-<package name="1X02" urn="urn:adsk.eagle:footprint:11818418/1" library_version="20">
-<description>M02</description>
+<package name="1X02" urn="urn:adsk.eagle:footprint:7065966/1" library_version="81">
 <wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
 <wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
@@ -961,8 +960,8 @@ Handy to use on those pins that you want to mark as NC on a schematic.</descript
 <wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" rot="R90"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
@@ -992,6 +991,124 @@ Handy to use on those pins that you want to mark as NC on a schematic.</descript
 <pad name="1" x="8.8" y="0" drill="1.5"/>
 <text x="-2" y="5" size="1.778" layer="25">&gt;NAME</text>
 <text x="-2" y="-7" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="SCREWTERMINAL-3.5MM-2" urn="urn:adsk.eagle:footprint:7065968/1" library_version="81">
+<wire x1="-1.75" y1="3.4" x2="5.25" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="5.25" y1="3.4" x2="5.25" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="5.25" y1="-2.8" x2="5.25" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="5.25" y1="-3.6" x2="-1.75" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-3.6" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-2.8" x2="-1.75" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="5.25" y1="-2.8" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-1.35" x2="-2.15" y2="-1.35" width="0.2032" layer="51"/>
+<wire x1="-2.15" y1="-1.35" x2="-2.15" y2="-2.35" width="0.2032" layer="51"/>
+<wire x1="-2.15" y1="-2.35" x2="-1.75" y2="-2.35" width="0.2032" layer="51"/>
+<wire x1="5.25" y1="3.15" x2="5.65" y2="3.15" width="0.2032" layer="51"/>
+<wire x1="5.65" y1="3.15" x2="5.65" y2="2.15" width="0.2032" layer="51"/>
+<wire x1="5.65" y1="2.15" x2="5.25" y2="2.15" width="0.2032" layer="51"/>
+<circle x="2" y="3" radius="0.2828" width="0.127" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.2" diameter="2.032" shape="square"/>
+<pad name="2" x="3.5" y="0" drill="1.2" diameter="2.032"/>
+<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="SCREWTERMINAL-5MM-2" urn="urn:adsk.eagle:footprint:7065973/1" library_version="81">
+<wire x1="-3.1" y1="4.2" x2="8.1" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="8.1" y1="4.2" x2="8.1" y2="-2.3" width="0.2032" layer="21"/>
+<wire x1="8.1" y1="-2.3" x2="8.1" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="8.1" y1="-3.3" x2="-3.1" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="-3.1" y1="-3.3" x2="-3.1" y2="-2.3" width="0.2032" layer="21"/>
+<wire x1="-3.1" y1="-2.3" x2="-3.1" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="8.1" y1="-2.3" x2="-3.1" y2="-2.3" width="0.2032" layer="21"/>
+<wire x1="-3.1" y1="-1.35" x2="-3.7" y2="-1.35" width="0.2032" layer="51"/>
+<wire x1="-3.7" y1="-1.35" x2="-3.7" y2="-2.35" width="0.2032" layer="51"/>
+<wire x1="-3.7" y1="-2.35" x2="-3.1" y2="-2.35" width="0.2032" layer="51"/>
+<wire x1="8.1" y1="4" x2="8.7" y2="4" width="0.2032" layer="51"/>
+<wire x1="8.7" y1="4" x2="8.7" y2="3" width="0.2032" layer="51"/>
+<wire x1="8.7" y1="3" x2="8.1" y2="3" width="0.2032" layer="51"/>
+<circle x="2.5" y="3.7" radius="0.2828" width="0.127" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.3" diameter="2.032" shape="square"/>
+<pad name="2" x="5" y="0" drill="1.3" diameter="2.032"/>
+<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="1X02-S-BELOW" urn="urn:adsk.eagle:footprint:12119140/1" library_version="81">
+<description>M02</description>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" rot="R90"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
+<package name="1X06-ST" urn="urn:adsk.eagle:footprint:12562311/2" library_version="81">
+<description>1x06 stacking header</description>
+<wire x1="6.985" y1="1.27" x2="8.255" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="8.255" y1="1.27" x2="8.89" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="-0.635" x2="8.255" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="0.635" x2="9.525" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="9.525" y1="1.27" x2="10.795" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="10.795" y1="1.27" x2="11.43" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="11.43" y1="-0.635" x2="10.795" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="10.795" y1="-1.27" x2="9.525" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="9.525" y1="-1.27" x2="8.89" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="6.985" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="8.255" y1="-1.27" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="13.97" y1="0.635" x2="13.97" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="13.335" y1="1.27" x2="13.97" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="13.97" y1="-0.635" x2="13.335" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="11.43" y1="0.635" x2="12.065" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="12.065" y1="-1.27" x2="11.43" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="13.335" y1="-1.27" x2="12.065" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="12.065" y1="1.27" x2="13.335" y2="1.27" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="1.016" rot="R90"/>
+<pad name="5" x="10.16" y="0" drill="1.016" rot="R90"/>
+<pad name="6" x="12.7" y="0" drill="1.016" rot="R90"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
+<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
 </package>
 </packages>
 <packages3d>
@@ -1064,8 +1181,7 @@ Handy to use on those pins that you want to mark as NC on a schematic.</descript
 <packageinstance name="1X04-P"/>
 </packageinstances>
 </package3d>
-<package3d name="1X02" urn="urn:adsk.eagle:package:11818419/1" type="box" library_version="20">
-<description>M02</description>
+<package3d name="1X02" urn="urn:adsk.eagle:package:11818419/2" type="box" library_version="81">
 <packageinstances>
 <packageinstance name="1X02"/>
 </packageinstances>
@@ -1073,6 +1189,29 @@ Handy to use on those pins that you want to mark as NC on a schematic.</descript
 <package3d name="4UCON-18899" urn="urn:adsk.eagle:package:7066369/3" type="model" library_version="22">
 <packageinstances>
 <packageinstance name="PJ-322"/>
+</packageinstances>
+</package3d>
+<package3d name="SCREWTERMINAL-3.5MM-2" urn="urn:adsk.eagle:package:7066395/2" type="model" library_version="81">
+<packageinstances>
+<packageinstance name="SCREWTERMINAL-3.5MM-2"/>
+</packageinstances>
+</package3d>
+<package3d name="SCREWTERMINAL-5MM-2" urn="urn:adsk.eagle:package:7066400/2" type="model" library_version="81">
+<packageinstances>
+<packageinstance name="SCREWTERMINAL-5MM-2"/>
+</packageinstances>
+</package3d>
+<package3d name="HDRVR2W64P254_1X2_508X254X850C" urn="urn:adsk.eagle:package:12119141/2" type="model" library_version="81">
+<description>Single-row, 2-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 5.08 X 2.54 X 8.50 mm body
+&lt;p&gt;Single-row (1X2), 2-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 8.50 mm insulator length with overall size 5.08 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="1X02-S-BELOW"/>
+</packageinstances>
+</package3d>
+<package3d name="HDRVR6W64P254_1X6_1524X254X860C" urn="urn:adsk.eagle:package:12562312/3" type="model" library_version="81">
+<description>1x06 stacking header</description>
+<packageinstances>
+<packageinstance name="1X06-ST"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1164,9 +1303,9 @@ Handy to use on those pins that you want to mark as NC on a schematic.</descript
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="M02" urn="urn:adsk.eagle:component:11816163/3" prefix="J" uservalue="yes" library_version="20">
-<description>&lt;b&gt;Header 1x5&lt;/b&gt;
-Standard 0.1" header.</description>
+<deviceset name="M02" urn="urn:adsk.eagle:component:11816163/7" prefix="J" uservalue="yes" library_version="81">
+<description>&lt;b&gt;2-way header&lt;/b&gt;
+Standard 1x2 header, and screw terminal variations</description>
 <gates>
 <gate name="G$1" symbol="M02" x="0" y="0"/>
 </gates>
@@ -1201,7 +1340,43 @@ Standard 0.1" header.</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11818419/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11818419/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SCREW-3.5MM" package="SCREWTERMINAL-3.5MM-2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7066395/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SCREW-5MM" package="SCREWTERMINAL-5MM-2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7066400/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SOCKET-BELOW" package="1X02-S-BELOW">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12119141/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1244,7 +1419,9 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </device>
 </devices>
 </deviceset>
-<deviceset name="M06" urn="urn:adsk.eagle:component:11790970/6" prefix="J" library_version="18">
+<deviceset name="M06" urn="urn:adsk.eagle:component:11790970/9" prefix="J" library_version="81">
+<description>&lt;b&gt;6-way header&lt;/b&gt;
+Standard 1x6 header, and screw terminal variations</description>
 <gates>
 <gate name="G$1" symbol="M06" x="0" y="0"/>
 </gates>
@@ -1313,11 +1490,27 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <technology name=""/>
 </technologies>
 </device>
+<device name="-STACKING" package="1X06-ST">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12562312/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="M04" urn="urn:adsk.eagle:component:11818442/2" prefix="J" uservalue="yes" library_version="20">
-<description>&lt;b&gt;Header 1x4&lt;/b&gt;
-Standard 0.1" header.</description>
+<deviceset name="M04" urn="urn:adsk.eagle:component:11818442/3" prefix="J" uservalue="yes" library_version="81">
+<description>&lt;b&gt;4-way header&lt;/b&gt;
+Standard 1x4 header, and screw terminal variations</description>
 <gates>
 <gate name="G$1" symbol="M04" x="0" y="0"/>
 </gates>
@@ -1666,23 +1859,6 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35" rot="R180"/>
 </package>
-<package name="C0402" urn="urn:adsk.eagle:footprint:11801343/1" library_version="18">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-chip</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
 <package name="C0201" urn="urn:adsk.eagle:footprint:7066091/2" library_version="18">
 <wire x1="-0.7" y1="0.3" x2="0.7" y2="0.3" width="0.0508" layer="39"/>
 <wire x1="0.7" y1="0.3" x2="0.7" y2="-0.3" width="0.0508" layer="39"/>
@@ -1741,6 +1917,41 @@ chip</description>
 <text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="SOT32-3" urn="urn:adsk.eagle:footprint:7065886/1" library_version="39">
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1524" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.1524" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1524" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="0.625" x2="-1" y2="0.625" width="0.2032" layer="21"/>
+<wire x1="-1" y1="0.625" x2="-1" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="0.625" x2="1" y2="0.625" width="0.2032" layer="21"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.1" width="0.2032" layer="21"/>
+<smd name="3" x="0" y="0.8" dx="0.6" dy="0.8" layer="1"/>
+<smd name="2" x="0.65" y="-0.8" dx="0.6" dy="0.8" layer="1"/>
+<smd name="1" x="-0.65" y="-0.8" dx="0.6" dy="0.8" layer="1"/>
+<text x="-0.8255" y="1.4" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.8" y="-0.1905" size="0.3048" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="0.508" x2="0.254" y2="1.016" layer="51"/>
+<rectangle x1="0.381" y1="-1.016" x2="0.889" y2="-0.508" layer="51"/>
+<rectangle x1="-0.889" y1="-1.016" x2="-0.381" y2="-0.508" layer="51"/>
+</package>
+<package name="C0402" urn="urn:adsk.eagle:footprint:11872682/2" library_version="39">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.25" y2="0.25" layer="51"/>
+<rectangle x1="0.25" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
+<wire x1="-0.93" y1="0.47" x2="0.93" y2="0.47" width="0.0508" layer="39"/>
+<wire x1="0.93" y1="0.47" x2="0.93" y2="-0.47" width="0.0508" layer="39"/>
+<wire x1="0.93" y1="-0.47" x2="-0.93" y2="-0.47" width="0.0508" layer="39"/>
+<wire x1="-0.93" y1="-0.47" x2="-0.93" y2="0.47" width="0.0508" layer="39"/>
+<wire x1="-0.4" y1="0.2" x2="0.4" y2="0.2" width="0.1016" layer="51"/>
+<wire x1="-0.4" y1="-0.2" x2="0.4" y2="-0.2" width="0.1016" layer="51"/>
+<smd name="1" x="-0.48" y="0" dx="0.59" dy="0.64" layer="1"/>
+<smd name="2" x="0.48" y="0" dx="0.59" dy="0.64" layer="1"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="RESC1608X45" urn="urn:adsk.eagle:package:11768543/2" type="model" library_version="18">
@@ -1760,11 +1971,6 @@ chip</description>
 chip</description>
 <packageinstances>
 <packageinstance name="R2010"/>
-</packageinstances>
-</package3d>
-<package3d name="0402" urn="urn:adsk.eagle:package:7066320/2" type="box" library_version="18">
-<packageinstances>
-<packageinstance name="R0402"/>
 </packageinstances>
 </package3d>
 <package3d name="R0201" urn="urn:adsk.eagle:package:11768544/1" type="box" library_version="18">
@@ -1787,11 +1993,6 @@ chip</description>
 <package3d name="DIODE-1N4001" urn="urn:adsk.eagle:package:7066223/1" type="box" library_version="18">
 <packageinstances>
 <packageinstance name="DIODE-1N4001"/>
-</packageinstances>
-</package3d>
-<package3d name="SOD-323" urn="urn:adsk.eagle:package:7066224/1" type="box" library_version="18">
-<packageinstances>
-<packageinstance name="SOD-323"/>
 </packageinstances>
 </package3d>
 <package3d name="SOT23-3" urn="urn:adsk.eagle:package:7066225/2" type="box" library_version="18">
@@ -1841,13 +2042,6 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <packageinstance name="C0603"/>
 </packageinstances>
 </package3d>
-<package3d name="C0402" urn="urn:adsk.eagle:package:7066125/2" type="box" library_version="18">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-chip</description>
-<packageinstances>
-<packageinstance name="C0402"/>
-</packageinstances>
-</package3d>
 <package3d name="0201" urn="urn:adsk.eagle:package:7066518/2" type="box" library_version="18">
 <packageinstances>
 <packageinstance name="C0201"/>
@@ -1872,6 +2066,34 @@ chip</description>
 &lt;p&gt;Chip package with body size 3.20 X 1.60 X 1.25 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="C1206"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1005X30" urn="urn:adsk.eagle:package:7066320/3" type="model" library_version="39">
+<description>Chip, 1.00 X 0.50 X 0.30 mm body
+&lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.30 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="R0402"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD2413X110" urn="urn:adsk.eagle:package:7066224/2" type="model" library_version="39">
+<description>SOD, 2.40 mm span, 1.70 X 1.30 X 1.10 mm body
+&lt;p&gt;SOD package with 2.40 mm span with body size 1.70 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOD-323"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT65P212X110-3" urn="urn:adsk.eagle:package:7066313/2" type="model" library_version="39">
+<description>3-SOT23, 0.65 mm pitch, 2.13 mm span, 2.00 X 1.25 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.65 mm pitch, 2.13 mm span with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT32-3"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1005X30" urn="urn:adsk.eagle:package:7066125/5" type="model" library_version="39">
+<description>Chip, 1.00 X 0.50 X 0.30 mm body
+&lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.30 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="C0402"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1950,7 +2172,7 @@ chip</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:11768463/4" prefix="R" uservalue="yes" library_version="18">
+<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:11768463/5" prefix="R" uservalue="yes" library_version="39">
 <description>&lt;b&gt;Resistor&lt;/b&gt;
 Standard resistors.</description>
 <gates>
@@ -1987,7 +2209,7 @@ Standard resistors.</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7066320/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7066320/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2037,7 +2259,7 @@ Standard resistors.</description>
 </pinmapping>
 </spice>
 </deviceset>
-<deviceset name="DIODE" urn="urn:adsk.eagle:component:11815953/3" prefix="D" uservalue="yes" library_version="2">
+<deviceset name="DIODE" urn="urn:adsk.eagle:component:11815953/4" prefix="D" uservalue="yes" library_version="2">
 <description>&lt;b&gt;Diode&lt;/b&gt;
 Standard reverse protection diodes and small signal diodes. SMA package can handle up to about 1A. SOD-323 can handle about 200mA.</description>
 <gates>
@@ -2074,7 +2296,7 @@ Standard reverse protection diodes and small signal diodes. SMA package can hand
 <connect gate="G$1" pin="C" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7066224/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7066224/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2130,12 +2352,13 @@ Standard reverse protection diodes and small signal diodes. SMA package can hand
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOSFET-NCHANNEL" urn="urn:adsk.eagle:component:11815999/4" prefix="Q" library_version="18">
+<deviceset name="MOSFET-NCHANNEL" urn="urn:adsk.eagle:component:11815999/5" prefix="Q" library_version="39">
+<description>N-channel MOSFET</description>
 <gates>
 <gate name="G$1" symbol="MOSFET-NCHANNEL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SMD" package="SOT23-3">
+<device name="-233" package="SOT23-3">
 <connects>
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
@@ -2148,7 +2371,7 @@ Standard reverse protection diodes and small signal diodes. SMA package can hand
 <technology name=""/>
 </technologies>
 </device>
-<device name="PTH" package="TO-92">
+<device name="-TO92" package="TO-92">
 <connects>
 <connect gate="G$1" pin="D" pad="1"/>
 <connect gate="G$1" pin="G" pad="3"/>
@@ -2161,7 +2384,7 @@ Standard reverse protection diodes and small signal diodes. SMA package can hand
 <technology name=""/>
 </technologies>
 </device>
-<device name="DPAK" package="DPACK">
+<device name="-DPAK" package="DPACK">
 <connects>
 <connect gate="G$1" pin="D" pad="2"/>
 <connect gate="G$1" pin="G" pad="1"/>
@@ -2174,9 +2397,22 @@ Standard reverse protection diodes and small signal diodes. SMA package can hand
 <technology name=""/>
 </technologies>
 </device>
+<device name="-323" package="SOT32-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7066313/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="CAP" urn="urn:adsk.eagle:component:11768545/5" prefix="C" uservalue="yes" library_version="20">
+<deviceset name="CAP" urn="urn:adsk.eagle:component:11768545/8" prefix="C" uservalue="yes" library_version="39">
 <description>&lt;b&gt;Capacitor&lt;/b&gt;
 Standard ceramic capacitor</description>
 <gates>
@@ -2201,7 +2437,7 @@ Standard ceramic capacitor</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7066125/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7066125/5"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2410,7 +2646,7 @@ Standard ceramic capacitor</description>
 <packageinstance name="LED-0805"/>
 </packageinstances>
 </package3d>
-<package3d name="LED-0402" urn="urn:adsk.eagle:package:7066337/1" type="box" library_version="3">
+<package3d name="LED-0402" urn="urn:adsk.eagle:package:7066337/2" type="model" library_version="4">
 <packageinstances>
 <packageinstance name="LED-0402"/>
 </packageinstances>
@@ -2444,7 +2680,7 @@ Standard ceramic capacitor</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED" urn="urn:adsk.eagle:component:11790575/3" prefix="LED" uservalue="yes" library_version="3">
+<deviceset name="LED" urn="urn:adsk.eagle:component:11790575/4" prefix="LED" uservalue="yes" library_version="4">
 <description>&lt;b&gt;LEDs&lt;/b&gt;
 Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LEDs. 5mm - Spark Fun Electronics SKU : COM-00529 (and others)</description>
 <gates>
@@ -2529,7 +2765,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7066337/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7066337/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2588,7 +2824,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <text x="-4" y="4" size="1.778" layer="25">&gt;NAME</text>
 <text x="-4" y="-6" size="1.778" layer="27">&gt;VALUE</text>
 </package>
-<package name="TACTILE_SMD_3X4X2" urn="urn:adsk.eagle:footprint:11818376/2" library_version="10">
+<package name="TACTILE_SMT_3X4X2" urn="urn:adsk.eagle:footprint:11818376/3" library_version="18">
 <wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.2032" layer="21"/>
 <wire x1="-2" y1="-1.5" x2="2" y2="-1.5" width="0.2032" layer="21"/>
 <wire x1="-2" y1="1.5" x2="-2" y2="1" width="0.2032" layer="21"/>
@@ -2601,7 +2837,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <rectangle x1="-2.4" y1="-0.7" x2="-1.5" y2="0.7" layer="51"/>
 <rectangle x1="1.5" y1="-0.7" x2="2.4" y2="0.7" layer="51"/>
 </package>
-<package name="TACTILE_SMD_3X4X2_NO_SILK" urn="urn:adsk.eagle:footprint:11818375/2" library_version="10">
+<package name="TACTILE_SMT_3X4X2_NO_SILK" urn="urn:adsk.eagle:footprint:11818375/3" library_version="18">
 <smd name="1" x="-2.05" y="0" dx="1.4" dy="1.4" layer="1" rot="R90"/>
 <smd name="2" x="2.05" y="0" dx="1.4" dy="1.4" layer="1" rot="R90"/>
 <rectangle x1="-2.4" y1="-0.7" x2="-1.5" y2="0.7" layer="51"/>
@@ -2619,14 +2855,14 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <packageinstance name="TC-120V"/>
 </packageinstances>
 </package3d>
-<package3d name="TACTILE_SWITCH_SMD_2PIN_TINY" urn="urn:adsk.eagle:package:11818379/3" type="model" library_version="10">
+<package3d name="TACTILE_SWITCH_SMD_2PIN_TINY" urn="urn:adsk.eagle:package:11818379/4" type="model" library_version="18">
 <packageinstances>
-<packageinstance name="TACTILE_SMD_3X4X2"/>
+<packageinstance name="TACTILE_SMT_3X4X2"/>
 </packageinstances>
 </package3d>
-<package3d name="TACTILE_SWITCH_SMD_2PIN_TINY_NO_SILK" urn="urn:adsk.eagle:package:11818378/3" type="model" library_version="10">
+<package3d name="TACTILE_SWITCH_SMD_2PIN_TINY_NO_SILK" urn="urn:adsk.eagle:package:11818378/4" type="model" library_version="18">
 <packageinstances>
-<packageinstance name="TACTILE_SMD_3X4X2_NO_SILK"/>
+<packageinstance name="TACTILE_SMT_3X4X2_NO_SILK"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2707,32 +2943,32 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="TAC_SWITCH_2PIN" urn="urn:adsk.eagle:component:11818380/4" prefix="S" library_version="10">
+<deviceset name="TAC_SWITCH_2PIN" urn="urn:adsk.eagle:component:11818380/5" prefix="S" library_version="18">
 <description>&lt;b&gt;Momentary Tactile Switch - 2 pin&lt;/b&gt;&lt;br /&gt;
 Uxcell 3x4x2mm switch with 2 SMT pads</description>
 <gates>
 <gate name="1" symbol="TS2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SMT" package="TACTILE_SMD_3X4X2">
+<device name="SMT" package="TACTILE_SMT_3X4X2">
 <connects>
 <connect gate="1" pin="P" pad="1"/>
 <connect gate="1" pin="S" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11818379/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11818379/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-NS" package="TACTILE_SMD_3X4X2_NO_SILK">
+<device name="-NS" package="TACTILE_SMT_3X4X2_NO_SILK">
 <connects>
 <connect gate="1" pin="P" pad="1"/>
 <connect gate="1" pin="S" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11818378/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11818378/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2799,7 +3035,7 @@ Uxcell 3x4x2mm switch with 2 SMT pads</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MCP2551" urn="urn:adsk.eagle:component:11818032/2" prefix="IC" library_version="6">
+<deviceset name="MCP2551" urn="urn:adsk.eagle:component:11818032/3" prefix="IC" library_version="18">
 <description>CAN bus transceiver. Pin compatible chips with different specs include:
 &lt;ul&gt;
 &lt;li&gt;MCP2551 (5V only)&lt;/li&gt;
@@ -2915,7 +3151,7 @@ Uxcell 3x4x2mm switch with 2 SMT pads</description>
 <part name="R8" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="2K2"/>
 <part name="R9" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="10K"/>
 <part name="R2" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="10K"/>
-<part name="Q1" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="MOSFET-NCHANNEL" device="DPAK" package3d_urn="urn:adsk.eagle:package:11815997/3" value="NTD5867NLT4G"/>
+<part name="Q1" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="MOSFET-NCHANNEL" device="-DPAK" package3d_urn="urn:adsk.eagle:package:11815997/3" value="NTD5867NLT4G"/>
 <part name="R1" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K"/>
 <part name="J1" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" deviceset="POWER_JACK" device="-SLOTS" package3d_urn="urn:adsk.eagle:package:7066536/4" value="DC_2_1MM"/>
 <part name="GND12" library="SparkFun" deviceset="GND" device=""/>
@@ -2935,9 +3171,9 @@ Uxcell 3x4x2mm switch with 2 SMT pads</description>
 <part name="P+2" library="freetronics-original" deviceset="3.3V" device=""/>
 <part name="R3" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="22K"/>
 <part name="P+8" library="freetronics-original" deviceset="3.3V" device=""/>
-<part name="S1" library="SuperHouse-Switches" library_urn="urn:adsk.eagle:library:11744182" deviceset="TAC_SWITCH_2PIN" device="SMT" package3d_urn="urn:adsk.eagle:package:11818379/3" value="RESET"/>
+<part name="S1" library="SuperHouse-Switches" library_urn="urn:adsk.eagle:library:11744182" deviceset="TAC_SWITCH_2PIN" device="SMT" package3d_urn="urn:adsk.eagle:package:11818379/4" value="RESET"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
-<part name="S2" library="SuperHouse-Switches" library_urn="urn:adsk.eagle:library:11744182" deviceset="TAC_SWITCH_2PIN" device="SMT" package3d_urn="urn:adsk.eagle:package:11818379/3" value="FLASH"/>
+<part name="S2" library="SuperHouse-Switches" library_urn="urn:adsk.eagle:library:11744182" deviceset="TAC_SWITCH_2PIN" device="SMT" package3d_urn="urn:adsk.eagle:package:11818379/4" value="FLASH"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="R4" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="22K"/>
 <part name="P+9" library="freetronics-original" deviceset="3.3V" device=""/>
@@ -2960,7 +3196,7 @@ Uxcell 3x4x2mm switch with 2 SMT pads</description>
 <part name="P+1" library="freetronics-jon" library_urn="urn:adsk.eagle:library:7065448" deviceset="3.3V" device=""/>
 <part name="GND10" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
-<part name="H4" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" deviceset="M02" device="-PLAIN" package3d_urn="urn:adsk.eagle:package:11818419/1" value="10K NTC Thermistor"/>
+<part name="H4" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" deviceset="M02" device="-PLAIN" package3d_urn="urn:adsk.eagle:package:11818419/2" value="10K NTC Thermistor"/>
 <part name="U$2" library="Philbywhizz" deviceset="NOCONNECTION" device=""/>
 <part name="U$3" library="Philbywhizz" deviceset="NOCONNECTION" device=""/>
 <part name="U$4" library="Philbywhizz" deviceset="NOCONNECTION" device=""/>

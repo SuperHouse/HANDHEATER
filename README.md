@@ -4,6 +4,24 @@ Wheelchair Hand Heater
 Hand heater for users of electric wheelchairs. Allows the operator to
 maintain finger dexterity in cold weather.
 
+Heat is generated using a series of 7W wire-wound resistors, with a
+small fan blowing air through the heater enclosure and past the
+resistors. A temperature sensor allows the heater to maintain a target
+temperature, and the fan speed can be controlled using PWM.
+
+The example firmware supports both WiFi and Bluetooth, so the heater
+can be integrated with a home automation system for control or
+reporting.
+
+A CAN bus interface allows the hand heater to be integrated with
+other devices on the chair.
+
+A stainless steel case can be fabricated by laser-cutting and a
+sheet bender. The heater can then be attached to a wheelchair frame
+using a mounting bracket. Commonly available Go-Pro brackets can
+also be used, to either attach the heater to an object or sit it on
+a desk for stationary use.
+
 Features:
 
  * ESP32 microcontroller

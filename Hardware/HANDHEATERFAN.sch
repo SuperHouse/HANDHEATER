@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -316,7 +316,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="7.62" y="20.32" size="3.048" layer="94">Wheelchair Hand Heater Fan Sub-Board</text>
 <text x="38.1" y="14.478" size="1.778" layer="94">V2.0 (2019-06-07)</text>
 <text x="7.62" y="14.478" size="1.778" layer="94">SKU: HANDHEATER</text>
-<text x="7.366" y="9.398" size="1.778" layer="94">(C)2017-2019 Jonathan Oxer</text>
+<text x="7.366" y="9.398" size="1.778" layer="94">(C)2017-2019 SuperHouse Automation Pty Ltd</text>
 <text x="7.366" y="6.35" size="1.778" layer="94">Licensed under the TAPR Open Hardware License: www.tapr.org/ohl</text>
 <text x="68.326" y="14.478" size="1.778" layer="94">tron.cc/handheater</text>
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="8" rows="5" layer="94"/>

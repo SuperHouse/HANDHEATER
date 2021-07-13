@@ -6,7 +6,7 @@ Designed by Jonathan Oxer
 Hand heater for users of electric wheelchairs. Allows the operator to
 maintain finger dexterity in cold weather.
 
- - ATtiny85 processor
+ - ESP32 microcontroller
  - PWM control of fan speed and heater power
  - Thermistor temperature sensor
  - Local control button (mode select)
